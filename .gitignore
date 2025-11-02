@@ -1,0 +1,18 @@
+
+# python cache folder
+__pycache__
+
+# Environment folder (packages)
+env
+
+# Credentials
+.env
+
+# Misc
+airflow/simple_auth_manager_passwords.json.generated
+
+# Airflow database
+airflow/airflow.db
+
+# Airflow Logs
+airflow/logs
