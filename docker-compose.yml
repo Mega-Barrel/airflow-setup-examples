@@ -1,6 +1,7 @@
 
 services:
   airflow:
+    build: .
     image: my-airflow:latest
     volumes:
       - ./airflow:/opt/airflow
